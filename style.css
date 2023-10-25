@@ -213,7 +213,11 @@ header {
     display: flex;
     width: calc(250px * 18);
     animation: scroll 20s linear infinite;
+    &:hover {
+        animation-play-state: paused;
+    }
 }
+
 
 @keyframes scroll {
     0%{
